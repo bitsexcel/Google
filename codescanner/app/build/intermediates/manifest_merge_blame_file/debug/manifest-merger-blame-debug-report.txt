@@ -1,0 +1,165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bitsexcel.mlkit.samples.codescanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:7:3-76
+11-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:7:20-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:8:3-64
+12-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:8:20-62
+13
+14    <application
+14-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:10:3-41:17
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\a81ad3c3ed86f15abe248b2b5ea57d72\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@drawable/logo_mlkit"
+17-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:11:7-42
+18        android:label="@string/app_name"
+18-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:12:7-39
+19        android:taskAffinity=""
+19-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:13:7-30
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:14:7-38
+22        <meta-data
+22-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:16:5-18:65
+23            android:name="com.google.android.gms.version"
+23-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:17:9-54
+24            android:value="@integer/google_play_services_version" />
+24-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:18:9-62
+25        <meta-data
+25-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:20:5-22:37
+26            android:name="com.google.mlkit.vision.DEPENDENCIES"
+26-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:21:9-60
+27            android:value="barcode_ui" />
+27-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:22:9-35
+28
+29        <activity
+29-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:24:5-31:16
+30            android:name="com.bitsexcel.mlkit.samples.codescanner.EntryChoiceActivity"
+30-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:25:9-83
+31            android:exported="true" >
+31-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:26:9-32
+32            <intent-filter>
+32-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:27:7-30:23
+33                <action android:name="android.intent.action.MAIN" />
+33-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:28:9-61
+33-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:28:17-58
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:29:9-69
+35-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:29:19-66
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:33:5-35:36
+39            android:name="com.bitsexcel.mlkit.samples.codescanner.java.MainActivity"
+39-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:34:9-81
+40            android:exported="false" />
+40-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:35:9-33
+41        <activity
+41-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:37:5-39:36
+42            android:name="com.bitsexcel.mlkit.samples.codescanner.kotlin.MainActivity"
+42-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:38:9-83
+43            android:exported="false" />
+43-->F:\22_03_07_Apps\Google\mlkit\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:39:9-33
+44
+45        <!--
+46        This activity is an invisible delegate activity to start scanner activity
+47        and receive result, so it's unnecessary to support screen orientation and
+48        we can avoid any side effect from activity recreation in any case.
+49        -->
+50        <activity
+50-->[com.google.android.gms:play-services-code-scanner:16.0.0-beta3] C:\Users\jdaniel\.gradle\caches\transforms-3\5d75409f17cfaa8518aaf82e76b484c4\transformed\jetified-play-services-code-scanner-16.0.0-beta3\AndroidManifest.xml:15:9-20:20
+51            android:name="com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+51-->[com.google.android.gms:play-services-code-scanner:16.0.0-beta3] C:\Users\jdaniel\.gradle\caches\transforms-3\5d75409f17cfaa8518aaf82e76b484c4\transformed\jetified-play-services-code-scanner-16.0.0-beta3\AndroidManifest.xml:16:13-107
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-code-scanner:16.0.0-beta3] C:\Users\jdaniel\.gradle\caches\transforms-3\5d75409f17cfaa8518aaf82e76b484c4\transformed\jetified-play-services-code-scanner-16.0.0-beta3\AndroidManifest.xml:17:13-37
+53            android:screenOrientation="portrait" >
+53-->[com.google.android.gms:play-services-code-scanner:16.0.0-beta3] C:\Users\jdaniel\.gradle\caches\transforms-3\5d75409f17cfaa8518aaf82e76b484c4\transformed\jetified-play-services-code-scanner-16.0.0-beta3\AndroidManifest.xml:18:13-49
+54        </activity>
+55
+56        <service
+56-->[com.google.mlkit:vision-common:17.0.0] C:\Users\jdaniel\.gradle\caches\transforms-3\3f50dd18cf6859c3171155fdb5ae904a\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:9:9-15:19
+57            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+57-->[com.google.mlkit:vision-common:17.0.0] C:\Users\jdaniel\.gradle\caches\transforms-3\3f50dd18cf6859c3171155fdb5ae904a\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:10:13-91
+58            android:directBootAware="true"
+58-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:17:13-43
+59            android:exported="false" >
+59-->[com.google.mlkit:vision-common:17.0.0] C:\Users\jdaniel\.gradle\caches\transforms-3\3f50dd18cf6859c3171155fdb5ae904a\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:11:13-37
+60            <meta-data
+60-->[com.google.mlkit:vision-common:17.0.0] C:\Users\jdaniel\.gradle\caches\transforms-3\3f50dd18cf6859c3171155fdb5ae904a\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:12:13-14:85
+61                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+61-->[com.google.mlkit:vision-common:17.0.0] C:\Users\jdaniel\.gradle\caches\transforms-3\3f50dd18cf6859c3171155fdb5ae904a\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:13:17-124
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.mlkit:vision-common:17.0.0] C:\Users\jdaniel\.gradle\caches\transforms-3\3f50dd18cf6859c3171155fdb5ae904a\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:14:17-82
+63            <meta-data
+63-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:20:13-22:85
+64                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+64-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:21:17-120
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:22:17-82
+66        </service>
+67
+68        <provider
+68-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:9:9-13:38
+69            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+69-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:10:13-78
+70            android:authorities="com.bitsexcel.mlkit.samples.codescanner.mlkitinitprovider"
+70-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:11:13-69
+71            android:exported="false"
+71-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:12:13-37
+72            android:initOrder="99" />
+72-->[com.google.mlkit:common:18.5.0] C:\Users\jdaniel\.gradle\caches\transforms-3\6dd26f9435869f5134001eacefa0f76d\transformed\jetified-common-18.5.0\AndroidManifest.xml:13:13-35
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\jdaniel\.gradle\caches\transforms-3\1cf21f47d4dff4d03b29a344fa6d2717\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\jdaniel\.gradle\caches\transforms-3\1cf21f47d4dff4d03b29a344fa6d2717\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\jdaniel\.gradle\caches\transforms-3\1cf21f47d4dff4d03b29a344fa6d2717\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\jdaniel\.gradle\caches\transforms-3\1cf21f47d4dff4d03b29a344fa6d2717\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+78
+79        <service
+79-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\jdaniel\.gradle\caches\transforms-3\771e98e8c05f640936b7c30b63e087fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+80            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+80-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\jdaniel\.gradle\caches\transforms-3\771e98e8c05f640936b7c30b63e087fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+81            android:exported="false" >
+81-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\jdaniel\.gradle\caches\transforms-3\771e98e8c05f640936b7c30b63e087fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+82            <meta-data
+82-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\jdaniel\.gradle\caches\transforms-3\771e98e8c05f640936b7c30b63e087fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+83                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+83-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\jdaniel\.gradle\caches\transforms-3\771e98e8c05f640936b7c30b63e087fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+84                android:value="cct" />
+84-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\jdaniel\.gradle\caches\transforms-3\771e98e8c05f640936b7c30b63e087fe\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+85        </service>
+86        <service
+86-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\jdaniel\.gradle\caches\transforms-3\0a34072e4cfb31da723febe87fc6b3e5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+87            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+87-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\jdaniel\.gradle\caches\transforms-3\0a34072e4cfb31da723febe87fc6b3e5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+88            android:exported="false"
+88-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\jdaniel\.gradle\caches\transforms-3\0a34072e4cfb31da723febe87fc6b3e5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+89            android:permission="android.permission.BIND_JOB_SERVICE" >
+89-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\jdaniel\.gradle\caches\transforms-3\0a34072e4cfb31da723febe87fc6b3e5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+90        </service>
+91
+92        <receiver
+92-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\jdaniel\.gradle\caches\transforms-3\0a34072e4cfb31da723febe87fc6b3e5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+93            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+93-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\jdaniel\.gradle\caches\transforms-3\0a34072e4cfb31da723febe87fc6b3e5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+94            android:exported="false" />
+94-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\jdaniel\.gradle\caches\transforms-3\0a34072e4cfb31da723febe87fc6b3e5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+95    </application>
+96
+97</manifest>

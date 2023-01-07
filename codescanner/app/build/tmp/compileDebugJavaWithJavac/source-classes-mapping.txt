@@ -1,0 +1,4 @@
+com/google/mlkit/samples/codescanner/BuildConfig.java
+ com.google.mlkit.samples.codescanner.BuildConfig
+com/google/mlkit/samples/codescanner/java/MainActivity.java
+ com.google.mlkit.samples.codescanner.java.MainActivity

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\22_03_07_Apps\\Google\\mlkit\\mlkit-master\\android\\codescanner\\app\\build\\intermediates\\merged_res\\release\\drawable_logo_mlkit.xml.flat",
+        "source": "F:\\22_03_07_Apps\\Google\\mlkit\\mlkit-master\\android\\codescanner\\app\\src\\main\\res\\drawable\\logo_mlkit.xml"
+    },
+    {
+        "merged": "F:\\22_03_07_Apps\\Google\\mlkit\\mlkit-master\\android\\codescanner\\app\\build\\intermediates\\merged_res\\release\\layout_activity_main.xml.flat",
+        "source": "F:\\22_03_07_Apps\\Google\\mlkit\\mlkit-master\\android\\codescanner\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
