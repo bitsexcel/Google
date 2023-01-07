@@ -1,0 +1,8 @@
+curl -L -X GET 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522%2C151.1957362&radius=1500&type=restaurant&keyword=cruise&key=YOUR_API_KEY'
+curl -L -X GET 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=10.024670065037755%C-84.18521707116398&radius=5000&keyword&supermarket&key=AIzaSyAZ1R7uBJ9bURCv36biuRS9lAgQicE0NVw'
+
+
+curl --get --data-urlencode "location=10.036852619805689,-84.15930257471878" --data-urlencode "radius=500" --data-urlencode "type=supermarket" --data-urlencode "keyword=supermarket" --data-urlencode "key=AIzaSyAZ1R7uBJ9bURCv36biuRS9lAgQicE0NVw" "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
+
+
+santa barvara 10.036852619805689, -84.15930257471878
